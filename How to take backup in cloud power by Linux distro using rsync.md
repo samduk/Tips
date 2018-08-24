@@ -1,4 +1,4 @@
-### Using rsync (default) command to take backup
+### How to take backup in cloud power by Linux distro using rsync
 
 - Command to take backup on Linux Machine (VPS - Virtual Private Server etc)
   - ```rsync -a source/ destination/```  similar to   ```copy source/ destination/```
@@ -25,3 +25,8 @@
     - ```shasum -a 256 file.tar.gz```   And keep the value somewhere safe
 - To update your backup folder with new changes    
   - ```rsync -a --delete source-folder  destination-folder```
+
+
+### Video Tutorial in Tibetan (Dessert ;))
+  - [Youtube](https://youtu.be/oGu-yFycZPc
+)
